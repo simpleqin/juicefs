@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: "gomod"
+    directory: "/"       # 根目录扫描
+    schedule:
+      interval: "weekly"
+    exclude-paths:
+      - "sdk/java/**"     
